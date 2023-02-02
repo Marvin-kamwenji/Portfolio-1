@@ -1,0 +1,9 @@
+.container-fluid {
+    background-color: #00282E;
+    color: white;
+    height: 100vh;
+}
+
+.navArea {
+border-right: 2px solid #F4C20F;
+}

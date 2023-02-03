@@ -7,3 +7,20 @@
 .navArea {
 border-right: 2px solid #F4C20F;
 }
+
+hr {
+    border: 1px solid #F4C20F;
+}
+
+.profileImage {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+.profileName {
+    color: #EF5C0A;
+    font-family: italianno;
+    font-size: 40px;
+}EF5C0A

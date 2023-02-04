@@ -6,17 +6,23 @@
 
 .navArea {
 border-right: 2px solid #F4C20F;
+height: 100vh;
+}
+
+.topNav {
+    margin-top: 15%;
 }
 
 hr {
     border: 1px solid #F4C20F;
+    margin-bottom: 3.125em;
 }
 
 .profileImage {
     width: 30%;
     height: 30%;
     border-radius: 50%;
-    margin-bottom: 3px;
+    margin-bottom: 0.1875em;
 }
 
 .profileName {
@@ -24,3 +30,51 @@ hr {
     font-family: italianno;
     font-size: 40px;
 }
+
+.lists {
+    list-style-type: none;
+    text-decoration: none;
+}
+.linkLists{
+    margin-bottom: 0.625em;
+}
+a {
+    font-family: inter;
+    text-align: center;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+a:visited {
+    color: #FFFFFF;;
+  }
+  
+  a:hover {
+    color: #F4C20F;
+  }
+  
+  a:active {
+    color: #F4C20F;
+  }
+
+  .button-div {
+    margin-top: 6.25em;
+  }
+
+  .hire_me_button {
+    border: 2px solid #FFBD13;
+    background-color: #00282E;
+    color: #EF5C0A;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5%;
+  }
+
+  .content-page {
+    border: 2px solid green;
+    margin-top: 10%;
+    height: 80vh;
+  }

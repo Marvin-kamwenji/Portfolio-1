@@ -11,17 +11,22 @@ function Mainpage (){
                       <hr />
                     </div>
                     <div className="bottomNav">
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#skill">Skill</a></li>
-                            <li><a href="#design">Design</a></li>
-                            <li><a href="#preview">Preview</a></li>
-                            <li><a href="contact">Contact</a></li>
+                        <ul className='lists'>
+                            <li className="linkLists" ><a href="#about">About</a></li>
+                            <li className="linkLists" ><a href="#skill">Skill</a></li>
+                            <li className="linkLists" ><a href="#design">Design</a></li>
+                            <li className="linkLists" ><a href="#preview">Preview</a></li>
+                            <li className="linkLists" ><a href="#contact">Contact</a></li>
                         </ul>
+                        <div className="button-div">
+                            <button className="hire_me_button">Hire me</button>
+                        </div>
                     </div>
                 </div>
                 <div className="col-8 content_area">
-                    <h1>World</h1>
+                    <div className="content-page">
+                      <h1>World</h1>
+                    </div>
                 </div>
             </div>
 

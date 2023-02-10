@@ -1,10 +1,10 @@
 import './App.css';
-import Mainpage from './Pages/Mainpage';
+import RoutingPage from './Routes/RoutingPage';
 
 function App() {
   return (
     <div className="App">
-      <Mainpage />
+      <RoutingPage />
     </div>
   );
 }

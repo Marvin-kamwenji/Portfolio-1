@@ -73,8 +73,45 @@ a:visited {
     border-radius: 5%;
   }
 
+  .content_hire_me_button {
+    border: 2px solid #FFBD13;
+    background-color: #00282E;
+    color: #EF5C0A;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 20%;
+    border-radius: 5%;
+    margin-right: 25px;
+    }
+
+  .contact_me_button{
+    border: 2px solid  #EF5C0A;
+    background-color: #00282E;
+    color: #FFBD13;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 20%;
+    border-radius: 5%;
+    margin-left: 25px;
+  }
+
   .content-page {
-    border: 2px solid green;
-    margin-top: 10%;
-    height: 80vh;
+    margin-top: 30%;
+  }
+
+  .content-page p {
+    width: 80%;
+    font-family: inter;
+    text-indent: opx;
+    font-size: 20px;
+    text-align: left;
+    text-overflow: none;
+    margin: 0 auto;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+  }
+
+  .content-buttons {
+    align-content: flex-end;
+    margin-top: 15%;
   }

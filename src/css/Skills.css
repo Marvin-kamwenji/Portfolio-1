@@ -1,0 +1,20 @@
+.content{
+    height: 100vh;
+}
+.skill-heading {
+    color: #FFBD13;
+    font-family: inter;
+    margin-top: 5%;
+}
+
+.skill-languages {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: inter;
+    font-size: 24px;
+}
+
+.skill-list {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
